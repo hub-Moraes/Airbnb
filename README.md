@@ -60,6 +60,4 @@ Abra [http://localhost:3000](https://www.google.com/search?q=http://localhost:30
 
 Desenvolvido por **Lucas Moraes**.
 
-* [LinkedIn](https://www.linkedin.com/in/lucasmoraess/)
-
-```
+[LinkedIn](https://www.linkedin.com/in/lucasmoraess/)
