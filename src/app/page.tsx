@@ -1,13 +1,9 @@
-import Header from '../widgets/Header';
+import Header from "../widgets/Header";
 
 export default function Home() {
   return (
     <>
-      <header>
-        <nav className="max-w-7xl mx-auto p-4 border-red-500 border-2 flex justify-between items-center">
-          <Header />
-        </nav>
-      </header>
+      <Header />
 
       <main className="max-w-7xl mx-auto border-blue-500 border-2">
         <section>
