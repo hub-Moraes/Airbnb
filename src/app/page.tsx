@@ -1,11 +1,15 @@
+import BarraPesquisa from "../widgets/BarraPesquisa";
 import Header from "../widgets/Header";
 
 export default function Home() {
   return (
     <>
       <Header />
+      <BarraPesquisa />
 
-      <main className="max-w-7xl mx-auto border-blue-500 border-2">
+      <hr className="mt-7 border border-gray-200"/>
+
+      <main className="mt-20 max-w-7xl mx-auto border-blue-500 border-2">
         <section>
           <div>Conteudo</div>
         </section>
