@@ -1,6 +1,7 @@
 import Botao from "@/src/components/Botao";
 import Logo from "@/src/components/Logo";
 import Menu from "@/src/components/Menu";
+import { IconUser } from "@tabler/icons-react";
 
 export default function Header() {
   return (
@@ -9,7 +10,10 @@ export default function Header() {
 
       <Menu />
 
-      <Botao />
+      <Botao icone={<IconUser size={18} />}> 
+        Entrar 
+      </Botao>
+
     </header>
   );
 }
