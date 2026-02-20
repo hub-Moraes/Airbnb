@@ -6,7 +6,7 @@ export default function BarraPesquisa() {
       <input
         className="max-w-xl w-full ml-5 outline-none"
         type="text"
-        placeholder="Buscar destinos e acomodaçoes"
+        placeholder="Buscar destinos e acomodações"
       />
       <IconSearch className="bg-red-400 rounded-full p-1.5 m-2 overflow-visible" size={38} color="white"/>
     </div>
