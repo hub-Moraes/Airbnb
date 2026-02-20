@@ -1,15 +1,17 @@
-import Header from '../widgets/Header';
+import BarraPesquisa from "../widgets/BarraPesquisa";
+import Header from "../widgets/Header";
 
 export default function Home() {
   return (
     <>
       <header>
-        <nav className="max-w-7xl mx-auto p-4 border-red-500 border-2 flex justify-between items-center">
-          <Header />
-        </nav>
+        <Header />
+        <BarraPesquisa />
       </header>
 
-      <main className="max-w-7xl mx-auto border-blue-500 border-2">
+      <hr className="mt-7 border border-gray-200" />
+
+      <main className="mt-20 max-w-7xl mx-auto border-blue-500 border-2">
         <section>
           <div>Conteudo</div>
         </section>
