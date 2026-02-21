@@ -1,5 +1,6 @@
 import BarraPesquisa from "../widgets/BarraPesquisa";
 import Header from "../widgets/Header";
+import NavegacaoHorizontal from "../widgets/NavegacaoHorizontal";
 
 export default function Home() {
   return (
@@ -9,15 +10,13 @@ export default function Home() {
         <BarraPesquisa />
       </header>
 
-      <hr className="mt-7 border border-gray-200" />
+      <hr className="mt-5 border border-gray-200" />
 
-      <main className="mt-20 max-w-7xl mx-auto border-blue-500 border-2">
-        <section>
-          <div>Conteudo</div>
-        </section>
+      <main>
+        <NavegacaoHorizontal />
       </main>
 
-      <footer className="max-w-7xl mx-auto border-yellow-500 border-2">
+      <footer className="max-w-7xl mx-auto">
         <div>Rodapé</div>
       </footer>
     </>
