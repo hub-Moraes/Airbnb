@@ -1,4 +1,5 @@
 export { 
     IconUser,
-    IconSearch 
+    IconSearch,
+    IconAdjustmentsHorizontal
 } from "@tabler/icons-react";

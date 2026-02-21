@@ -1,3 +1,4 @@
+import React from "react";
 interface BotaoProps {
   icone?: React.ReactNode;
   children: React.ReactNode;
