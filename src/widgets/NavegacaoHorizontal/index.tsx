@@ -144,7 +144,7 @@ const NavegacaoHorizontal = () => {
       >
         {icones.map((icone, indice) => (
           <SwiperSlide key={indice}>
-            <Link href={icone.url} className="flex flex-col items-center text-sm hover:text-red-400">
+            <Link href={icone.url} className="flex flex-col items-center text-xs hover:text-red-400">
               <Image
                 src={icone.source}
                 alt={icone.description}
