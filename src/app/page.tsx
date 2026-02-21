@@ -16,7 +16,7 @@ export default function Home() {
         <NavegacaoHorizontal />
       </main>
 
-      <footer className="max-w-7xl mx-auto">
+      <footer className="max-w-7xl mx-auto ">
         <div>Rodapé</div>
       </footer>
     </>
