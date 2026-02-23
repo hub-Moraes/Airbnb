@@ -8,7 +8,7 @@ export default function BarraPesquisa() {
         type="text"
         placeholder="Buscar destinos e acomodações"
       />
-      <IconSearch className="bg-red-400 rounded-full p-1.5 m-2 overflow-visible" size={38} color="white"/>
+      <IconSearch className="bg-red-400 rounded-full p-1.5 m-2 overflow-visible hover:bg-red-500" size={38} color="white"/>
     </div>
   );
 }
