@@ -131,9 +131,9 @@ const icones = [
 
 const NavegacaoHorizontal = () => {
   return (
-    <div className="flex flex-row items-center mt-4 max-w-7xl mx-auto">
+    <div className="fixed bottom-0 left-0 w-full bg-white py-2 flex flex-row items-center mt-4 max-w-7xl mx-auto px-5 sm:relative">
       <Swiper
-        spaceBetween={30}
+        spaceBetween={20}
         slidesPerView={3}
         breakpoints={{
           640: { slidesPerView: 3 },
@@ -144,7 +144,10 @@ const NavegacaoHorizontal = () => {
       >
         {icones.map((icone, indice) => (
           <SwiperSlide key={indice}>
-            <Link href={icone.url} className="flex flex-col items-center text-xs hover:text-red-400">
+            <Link
+              href={icone.url}
+              className="flex flex-col items-center text-xs hover:text-red-400"
+            >
               <Image
                 src={icone.source}
                 alt={icone.description}
@@ -156,7 +159,7 @@ const NavegacaoHorizontal = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <Botao icone={<IconAdjustmentsHorizontal size={18}/>}>Filtos</Botao>
+      <Botao icone={<IconAdjustmentsHorizontal size={18} />}>Filtos</Botao>
     </div>
   );
 };

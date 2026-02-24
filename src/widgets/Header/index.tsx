@@ -5,12 +5,16 @@ import { IconUser } from "@tabler/icons-react";
 
 export default function Header() {
   return (
-    <div className="max-w-7xl mx-auto py-4 flex justify-between items-center">
+    <div className="max-w-7xl mx-auto px-5 py-4 flex justify-between items-center">
       <Logo />
+      
+      <div className="flex justify-center mx-auto">
+        <Menu />
+      </div>
 
-      <Menu />
-
-      <Botao icone={<IconUser size={18} />}>Entrar</Botao>
+      <div className="hidden sm:block">
+        <Botao icone={<IconUser size={18} />}>Entrar</Botao>
+      </div>
     </div>
   );
 }
