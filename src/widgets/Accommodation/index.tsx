@@ -2830,7 +2830,7 @@ const accommodations = [
 
 const Accommodation = () => {
   return (
-    <section className="py-6 grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+    <section className="max-w-7xl mx-auto py-6 grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
         {accommodations.map( (acomodacao, indice)=>(
             <div key={indice}>
                 <Image className="w-full aspect-square object-cover rounded-xl" 

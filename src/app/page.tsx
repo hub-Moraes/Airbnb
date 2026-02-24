@@ -13,7 +13,7 @@ export default function Home() {
 
       <hr className="mt-5 border border-gray-200" />
 
-      <main className="max-w-7xl mx-auto ">
+      <main>
         <NavegacaoHorizontal />
         <Accommodation />
       </main>
