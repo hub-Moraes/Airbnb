@@ -8093,7 +8093,6 @@ const Accommodations = () => {
 
             >
 
-            {}
             <Image
             className="w-full aspect-square object-cover rounded-3xl"
             src={item.photos[0].source}
