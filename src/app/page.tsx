@@ -1,5 +1,6 @@
 import Accommodations from "../widgets/Accommodations";
 import BarraPesquisa from "../widgets/BarraPesquisa";
+import Footer from "../widgets/Footer";
 import Header from "../widgets/Header";
 import NavegacaoHorizontal from "../widgets/NavegacaoHorizontal";
 
@@ -18,8 +19,8 @@ export default function Home() {
         <Accommodations />
       </main>
 
-      <footer className="max-w-7xl mx-auto py-2 mb-17 sm:mb-0">
-        <div>Rodapé</div>
+      <footer>
+        <Footer />
       </footer>
     </>
   );
