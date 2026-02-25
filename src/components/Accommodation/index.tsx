@@ -16,9 +16,15 @@ const Accommodation = ({children, local, anfitriao, data, preco, avaliacao, pref
   return (
     <figure className="relative">
         <div className="absolute w-full p-4 flex items-center justify-between">
-            <span className="bg-gray-100 inset-shadow-sm/10 shadow-gray-800 rounded-xl text-xs w-28 py-1 px-3 font-semibold sm:w-auto sm:rounded-full xl:text-sm">
-            Preferido dos hóspedes
-            </span>
+            <div>
+                {preferidoHospedes && (
+                     <span className="bg-gray-100 inset-shadow-sm/10 shadow-gray-800 rounded-xl text-xs w-28 py-1 px-3 font-semibold sm:w-auto sm:rounded-full xl:text-sm">
+                        Preferido dos hóspedes
+                    </span>
+                )}
+            </div>
+
+           
             <IconHeartFilled className="opacity-70 stroke-white hover:opacity-60" size={25}/>
         </div>
 
