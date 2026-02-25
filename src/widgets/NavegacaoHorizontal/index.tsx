@@ -26,34 +26,10 @@ const icones = [
     url: "/chales",
   },
   {
-    id: "0004",
-    description: "Vistas incríveis",
-    source: "https://web.codans.com.br/airbnb/img/icon/0004.jpg",
-    url: "/vistas-incriveis",
-  },
-  {
-    id: "0005",
-    description: "Casas na árvore",
-    source: "https://web.codans.com.br/airbnb/img/icon/0005.jpg",
-    url: "/casas-arvore",
-  },
-  {
-    id: "0006",
-    description: "Casas triangulares",
-    source: "https://web.codans.com.br/airbnb/img/icon/0006.jpg",
-    url: "/casas-triangulares",
-  },
-  {
-    id: "0007",
-    description: "Em frente à praia",
-    source: "https://web.codans.com.br/airbnb/img/icon/0007.jpg",
-    url: "/frente-praia",
-  },
-  {
     id: "0008",
-    description: "Containêres",
-    source: "https://web.codans.com.br/airbnb/img/icon/0008.jpg",
-    url: "/containeres",
+    description: "Pousadas",
+    source: "https://web.codans.com.br/airbnb/img/icon/0010.jpg",
+    url: "/pousadas",
   },
   {
     id: "0009",
@@ -63,21 +39,9 @@ const icones = [
   },
   {
     id: "0010",
-    description: "Pousadas",
-    source: "https://web.codans.com.br/airbnb/img/icon/0010.jpg",
-    url: "/pousadas",
-  },
-  {
-    id: "0011",
-    description: "Na beira do lago",
-    source: "https://web.codans.com.br/airbnb/img/icon/0011.jpg",
-    url: "/beira-lago",
-  },
-  {
-    id: "0012",
-    description: "Parques nacionais",
-    source: "https://web.codans.com.br/airbnb/img/icon/0012.jpg",
-    url: "/parques-nacionais",
+    description: "Containêres",
+    source: "https://web.codans.com.br/airbnb/img/icon/0008.jpg",
+    url: "/containeres",
   },
   {
     id: "0013",
@@ -104,12 +68,6 @@ const icones = [
     url: "/ilhas",
   },
   {
-    id: "0017",
-    description: "Casas-barco",
-    source: "https://web.codans.com.br/airbnb/img/icon/0017.jpg",
-    url: "/casas-barco",
-  },
-  {
     id: "0018",
     description: "Luxe",
     source: "https://web.codans.com.br/airbnb/img/icon/0018.jpg",
@@ -131,15 +89,15 @@ const icones = [
 
 const NavegacaoHorizontal = () => {
   return (
-    <div className="fixed bottom-0 left-0 w-full bg-white py-2 flex flex-row items-center mt-4 max-w-7xl mx-auto px-5 sm:relative">
+    <div className="fixed bottom-0 w-full bg-white py-2 flex flex-row items-center mt-4 max-w-7xl mx-auto px-5 sm:relative">
       <Swiper
-        spaceBetween={20}
-        slidesPerView={3}
+        spaceBetween={10}
+        slidesPerView={4}
         breakpoints={{
-          640: { slidesPerView: 3 },
-          764: { slidesPerView: 4 },
-          1024: { slidesPerView: 6 },
-          1280: { slidesPerView: 9 },
+          640: { slidesPerView: 4 },
+          764: { slidesPerView: 6 },
+          1024: { slidesPerView: 8 },
+          1280: { slidesPerView: 10 },
         }}
       >
         {icones.map((icone, indice) => (
@@ -148,7 +106,7 @@ const NavegacaoHorizontal = () => {
               href={icone.url}
               className="flex flex-col items-center text-xs hover:text-red-400"
             >
-              <Image
+              <Image className="w-4 sm:w-auto"
                 src={icone.source}
                 alt={icone.description}
                 width={24}

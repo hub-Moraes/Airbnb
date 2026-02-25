@@ -18,7 +18,7 @@ export default function Home() {
         <Accommodation />
       </main>
 
-      <footer className="max-w-7xl mx-auto ">
+      <footer className="max-w-7xl mx-auto py-2 mb-17 sm:mb-0">
         <div>Rodapé</div>
       </footer>
     </>
