@@ -5,7 +5,7 @@ import { IconUser } from "@tabler/icons-react";
 
 export default function Header() {
   return (
-    <div className="max-w-7xl mx-auto px-5 py-4 flex justify-between items-center">
+    <div className="max-w-7xl mx-auto px-5 pt-6 pb-4 flex justify-between items-center">
       <div className="">
         <Logo />
       </div>
