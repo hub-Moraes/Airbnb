@@ -1,5 +1,6 @@
 import Accommodation from "@/src/components/Accommodation";
 import Image from "next/image";
+import Link from "next/link";
 
 const accommodations = [
   {
@@ -8082,25 +8083,26 @@ const Accommodations = () => {
     <section className="max-w-7xl mx-auto px-5 py-6 grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
       {accommodations.map((item, indice) => (
         <div key={indice}>
-          <Accommodation
+          <Link href={item.slug}>
+            <Accommodation
+              local={item.location.description}
+              anfitriao={item.host}
+              data={item.date}
+              preco={item.price}
+              avaliacao={item.rating}
+              preferidoHospedes={item.hasBadge}
 
-            local={item.location.description}
-            anfitriao={item.host}
-            data={item.date}
-            preco={item.price}
-            avaliacao={item.rating}
-            preferidoHospedes={item.hasBadge}
+              >
 
-            >
-
-            <Image
-            className="w-full aspect-square object-cover rounded-3xl"
-            src={item.photos[0].source}
-            alt={item.photos[0].description}
-            width={300}
-            height={300}
-            />
-          </Accommodation>
+              <Image
+              className="w-full aspect-square object-cover rounded-3xl"
+              src={item.photos[0].source}
+              alt={item.photos[0].description}
+              width={300}
+              height={300}
+              />
+            </Accommodation>          
+          </Link>
         </div>
       ))}
     </section>
