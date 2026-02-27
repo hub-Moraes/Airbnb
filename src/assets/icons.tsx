@@ -7,5 +7,15 @@ export {
   IconBrandFacebook,
   IconBrandInstagram,
   IconBrandX,
-  IconWorld
+  IconWorld,
+  IconPhoto,
+  IconToolsKitchen2,
+  IconDesk,
+  IconPool,
+  IconBrandCarbon,
+  IconSailboat,
+  IconWifi,
+  IconParking,
+  IconAlarmSmoke,
+  IconDog,
 } from "@tabler/icons-react";

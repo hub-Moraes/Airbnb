@@ -89,7 +89,7 @@ const icones = [
 
 const NavegacaoHorizontal = () => {
   return (
-    <div className="fixed bottom-0 w-full bg-white py-2 flex flex-row items-center mt-4 max-w-7xl mx-auto px-5 z-1 sm:relative">
+    <div className="fixed bottom-0 w-full bg-white py-2 flex flex-row items-center mt-4 max-w-7xl m-auto px-5 z-1 sm:relative">
       <Swiper
         spaceBetween={10}
         slidesPerView={4}
