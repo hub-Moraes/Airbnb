@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div  className="bg-gray-100 w-full py-5 mb-17 pb-20  border-t-2 mt-10 border-gray-200 sm:mb-0">
+    <div  className="bg-gray-100 w-full py-5 pb-35  border-t-2 mt-10 border-gray-200">
         <div className="max-w-7xl m-auto px-4 ">
             <span className="font-bold">&copy; 2026 Airbnb, Inc.</span>
             <div className="justify-between text-sm py-2 sm:flex">
