@@ -34,7 +34,7 @@ const testimonials = [
     }
 ]
 
-
+    
 const AccommodationTestimonials = () => {
   return (
         <div className="py-4 sm:col-span-1 sm:pl-1">
