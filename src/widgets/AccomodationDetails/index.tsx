@@ -1,10 +1,19 @@
+import { Accommodationss } from "@/src/types/AirbnbDados";
 import { IconAlarmSmoke, IconBrandCarbon, IconDesk, IconDog, IconParking, IconPhoto, IconPool, IconSailboat, IconToolsKitchen2, IconWifi } from "@tabler/icons-react";
 
+interface AccommodationDetailsProps {
+    accommodation: Accommodationss
+}
 
-const AccommodationDetails = () => {
+const AccommodationDetails = (
+    props: AccommodationDetailsProps
+) => {
+
+    const acomodacao = props.accommodation
+
   return (
         <div className="py-4 sm:col-span-1">
-            <h2 className="font-bold text-xl">Espaço inteiro: Casa de campo em minas gerais</h2>
+            <h2 className="font-bold text-xl">{acomodacao.location.description}</h2>
             <ul className="flex gap-2 text-sm">
                 <li>10 Hóspedes</li>
                 <li>&middot;</li>
