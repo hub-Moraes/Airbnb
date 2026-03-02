@@ -19,8 +19,8 @@ export default async function Home() {
       <hr className="mt-5 border border-gray-200" />
 
       <main>
-        <NavegacaoHorizontal />
-        <Accommodations />
+        <NavegacaoHorizontal Icons={dados.icons}/>
+        <Accommodations accommodation={dados.accommodation} />
       </main>
 
       <footer>
