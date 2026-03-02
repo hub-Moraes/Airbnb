@@ -2,6 +2,8 @@
 
 Uma aplicação web responsiva inspirada na interface do Airbnb, desenvolvida com o objetivo de colocar em prática conceitos modernos de desenvolvimento front-end. Este projeto foca em recriar a experiência visual e a usabilidade de busca e visualização de acomodações, unindo boas práticas de engenharia de software com uma interface limpa e focada no usuário.
 
+Link do projeto: **airbnb-avncm1tgb-hub-moraes-projects.vercel.app/**
+
 ## 🚀 Funcionalidades
 
 * **Listagem de Propriedades:** Visualização em grid de cards de acomodações com imagens otimizadas e informações de preço/avaliação.
@@ -17,6 +19,7 @@ Neste projeto, apliquei as seguintes tecnologias:
 * **[React](https://reactjs.org/)** - Construção de interfaces e gerenciamento de estado
 * **[Tailwind CSS](https://tailwindcss.com/)** - Estilização ágil e responsiva
 * **[TypeScript](https://www.typescriptlang.org/)** - Tipagem estática para maior segurança do código
+* **[Swiper](https://swiperjs.com/)** - Biblioteca moderna para a criação de carrosséis e sliders touch
 
 ## ⚙️ Como executar o projeto localmente
 
