@@ -2,7 +2,7 @@
 
 Uma aplicação web responsiva inspirada na interface do Airbnb, desenvolvida com o objetivo de colocar em prática conceitos modernos de desenvolvimento front-end. Este projeto foca em recriar a experiência visual e a usabilidade de busca e visualização de acomodações, unindo boas práticas de engenharia de software com uma interface limpa e focada no usuário.
 
-**[Link do projeto](airbnb-avncm1tgb-hub-moraes-projects.vercel.app/)**
+[Link do projeto](airbnb-avncm1tgb-hub-moraes-projects.vercel.app/)
 
 ## 🚀 Funcionalidades
 
